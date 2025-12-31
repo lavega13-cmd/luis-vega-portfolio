@@ -19,10 +19,17 @@ export default function SelectedWork() {
         >
           <motion.h2
             variants={fadeUpVariants}
-            className="text-4xl md:text-5xl font-bold mb-12 text-center text-primary"
+            className="text-4xl md:text-5xl font-bold mb-4 text-center text-primary"
           >
-            Selected Work
+            Career Highlights
           </motion.h2>
+
+          <motion.p
+            variants={fadeUpVariants}
+            className="text-xl text-muted text-center mb-12 max-w-3xl mx-auto"
+          >
+            10+ years driving impact in nonprofit leadership, fundraising, and humanitarian operations
+          </motion.p>
 
           <div className="grid gap-8 max-w-5xl mx-auto">
             {SELECTED_WORK.map((work, index) => (

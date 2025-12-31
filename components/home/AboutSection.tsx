@@ -35,7 +35,7 @@ export default function AboutSection() {
             </p>
 
             <p className="text-xl text-muted leading-relaxed">
-              Today, I help mission-driven leaders use AI to automate the work that drains their capacity so they can focus on the work only they can do. No fluff, no theory—just practical automation that creates measurable leverage.
+              Today, I help mission-driven leaders use AI to automate the work that drains their capacity so they can focus on the work only they can do.
             </p>
           </motion.div>
         </motion.div>
