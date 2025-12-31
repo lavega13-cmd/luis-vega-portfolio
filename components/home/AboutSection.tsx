@@ -27,7 +27,7 @@ export default function AboutSection() {
             className="prose prose-lg max-w-none"
           >
             <p className="text-xl text-muted leading-relaxed mb-6">
-              I'm an operator first. I've built teams, raised funds, and led high-stakes missions where execution mattered more than credentials.
+              I&apos;m an operator first. I&apos;ve built teams, raised funds, and led high-stakes missions where execution mattered more than credentials.
             </p>
 
             <p className="text-xl text-muted leading-relaxed mb-6">

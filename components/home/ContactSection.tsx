@@ -25,14 +25,14 @@ export default function ContactSection() {
             variants={fadeUpVariants}
             className="text-4xl md:text-5xl font-bold mb-6"
           >
-            Let's Connect
+            Let&apos;s Connect
           </motion.h2>
 
           <motion.p
             variants={fadeUpVariants}
             className="text-xl text-gray-200 mb-12 leading-relaxed"
           >
-            Interested in exploring how AI automation can scale your nonprofit's impact? Reach out via LinkedIn or email.
+            Interested in exploring how AI automation can scale your nonprofit&apos;s impact? Reach out via LinkedIn or email.
           </motion.p>
 
           <motion.div
