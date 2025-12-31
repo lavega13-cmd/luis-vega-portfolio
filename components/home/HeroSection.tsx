@@ -75,7 +75,7 @@ export default function HeroSection() {
 
             <motion.p
               variants={fadeUpVariants}
-              className="text-lg md:text-xl mb-12 text-accent font-semibold"
+              className="text-lg md:text-xl mb-12 text-white font-semibold"
             >
               Raised $10M+, led teams through seven-figure turnarounds, and co-founded a
               program that rescued 817 civilians from conflict zones.
@@ -89,14 +89,14 @@ export default function HeroSection() {
                 href={CONTACT.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center px-8 py-4 bg-accent text-primary font-semibold text-lg rounded-lg hover:bg-accent/90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-accent/50 focus:ring-offset-2 focus:ring-offset-primary"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-primary font-semibold text-lg rounded-lg hover:bg-white/90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-primary shadow-lg"
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </a>
               <a
                 href={`mailto:${CONTACT.email}`}
-                className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white font-semibold text-lg rounded-lg border-2 border-white/30 hover:bg-white/20 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-primary"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-primary font-semibold text-lg rounded-lg hover:bg-white/90 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-white/50 focus:ring-offset-2 focus:ring-offset-primary shadow-lg"
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Email
